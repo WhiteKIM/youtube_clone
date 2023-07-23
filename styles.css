@@ -1,0 +1,64 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 50px;
+  background-color: black;
+  position: relative;
+}
+
+.menu  {
+  position: absolute;
+  background-color: white;
+  margin-left: 5px;
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+input.search {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 2em;
+  border-radius: 25px;
+}
+
+.sidebar-section {
+  width: 50px;
+  height: 100vh;
+  background-color: black;
+  float: left;
+}
+
+.sidebar img {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.video-card {
+  width: 15%;
+  height: auto;
+}
+
+.video-card img {
+  border-radius: 20px;
+}
